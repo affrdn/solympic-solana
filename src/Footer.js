@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <a
-          href="https://solscan.io/account/So11111111111111111111111111111111111111112"
+          href="https://solscan.io/account/8DwgkMc7yLHSQwUbb83mKzPtHSAWxwiGXWN45ciSpump"
           target="_blank"
           style={{ textDecoration: "none", color: "white" }}
         >
