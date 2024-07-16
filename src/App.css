@@ -43,10 +43,43 @@ body {
 }
 
 .container h1 {
-  font-size: calc(10px + 2vmin);
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
 .container p {
   font-size: 1.5rem;
+}
+
+/* Footer.css */
+
+.footer {
+  color: #fff;
+  padding: 25px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .container {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .container p:hover {
+  color: #1da1f2;
+}
+
+.footer .social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #1da1f2;
 }
